@@ -66,10 +66,10 @@
 
         nav {
             bindings = <
-  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6                   &kp N7                 &kp N8            &kp N9                &kp N0
-  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &hmr RIGHT_CONTROL LEFT  &hmr RIGHT_SHIFT DOWN  &hmr LEFT_ALT UP  &hmr RIGHT_GUI RIGHT  &kp PRINTSCREEN
-  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS                 &none                  &kp PG_DN         &kp PG_UP             &none
-                                      &trans     &trans      &trans    &trans  &mo 3                    &trans
+  &kp N1         &kp N2    &kp N3     &kp N4     &kp N5                        &kp N6          &kp N7                   &kp N8               &kp N9                &kp N0
+  &hml LGUI ESC  &kp LALT  &kp LSHFT  &kp LCTRL  &kp ENTER                     &kp LEFT_ARROW  &hmr RIGHT_CONTROL DOWN  &hmr RIGHT_SHIFT UP  &hmr RIGHT_ALT RIGHT  &hmr QMARK RIGHT_COMMAND
+  &none          &kp HOME  &kp INS    &kp END    &kp DELETE                    &kp CAPS        &none                    &kp PG_DN            &kp PG_UP             &none
+                                      &trans     &trans      &trans    &trans  &mo 3           &trans
             >;
         };
 
